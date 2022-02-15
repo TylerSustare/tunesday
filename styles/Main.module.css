@@ -1,0 +1,10 @@
+.body {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.cardWidth {
+  min-width: 25vw;
+  max-width: 75vw;
+}
