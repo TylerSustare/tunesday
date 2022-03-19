@@ -6,8 +6,11 @@ import Box from '@mui/material/Box';
 import Link from '../src/Link';
 import ProTip from '../src/ProTip';
 import Copyright from '../src/Copyright';
+import { Button } from '@mui/material';
+import useDarkMode from 'use-dark-mode';
 
 const Home: NextPage = () => {
+  const { toggle } = useDarkMode();
   return (
     <Container maxWidth="lg">
       <Box
@@ -25,6 +28,8 @@ const Home: NextPage = () => {
         <Link href="/about" color="secondary">
           Go to the about page
         </Link>
+        <Button onClick={toggle}>Toggle Theme</Button>
+
         <ProTip />
         <Copyright />
       </Box>

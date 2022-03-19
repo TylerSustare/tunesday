@@ -34,7 +34,7 @@ export const NextLinkComposed = React.forwardRef<HTMLAnchorElement, NextLinkComp
         <Anchor ref={ref} {...other} />
       </NextLink>
     );
-  },
+  }
 );
 
 export type LinkProps = {

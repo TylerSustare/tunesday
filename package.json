@@ -17,13 +17,15 @@
     "@mui/material": "latest",
     "next": "latest",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "use-dark-mode": "^2.3.1"
   },
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
     "eslint": "latest",
     "eslint-config-next": "latest",
+    "prettier": "^2.5.1",
     "typescript": "latest"
   }
 }
