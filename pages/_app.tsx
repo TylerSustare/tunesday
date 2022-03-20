@@ -7,6 +7,7 @@ import { CacheProvider, EmotionCache } from '@emotion/react';
 import useDarkMode from 'use-dark-mode';
 import createEmotionCache from '../src/createEmotionCache';
 import { darkTheme, lightTheme } from '../src/theme';
+import AppBar from '@mui/material/AppBar';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
